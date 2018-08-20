@@ -35,6 +35,9 @@ public class StringSelectionSort {
 
     selectionSort(a);
     System.out.println(Arrays.toString(a));
+    System.out.println("a".compareTo("b"));
+    System.out.println("a".compareTo("c"));
+    System.out.println("c".compareTo("a"));
   }
 
 }
