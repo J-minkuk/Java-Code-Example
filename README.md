@@ -1,8 +1,8 @@
 # Java Programming
+![DataStructure](./img/datastructure.jpg)
 
-![datastructure](./img/datastructure.jpg)
-
-## doc link
+## Docs
 * [Polymorphism](./doc/Polymorphism.md)
 * [Map](./doc/Map.md)
 * [Iterator](./doc/Iterator.md)
+* [Thread](./doc/Thread.md)
