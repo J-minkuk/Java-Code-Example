@@ -1,4 +1,4 @@
-package com.study.threadpool;
+package com.study.threadpool.other;
 
 public class People implements Runnable {
   private int index;

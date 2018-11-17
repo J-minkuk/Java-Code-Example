@@ -1,4 +1,4 @@
-package com.study.threadpool;
+package com.study.threadpool.other;
 
 import java.util.concurrent.SynchronousQueue;
 import java.util.concurrent.ThreadPoolExecutor;
