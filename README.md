@@ -5,4 +5,4 @@
 * [Polymorphism](./doc/Polymorphism.md)
 * [Map](./doc/Map.md)
 * [Iterator](./doc/Iterator.md)
-* [Thread](./doc/Thread.md)
+* [Thread Pool](./doc/Thread.md)
