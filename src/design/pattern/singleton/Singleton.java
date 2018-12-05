@@ -3,7 +3,7 @@ package design.pattern.singleton;
 public class Singleton {
   private static Singleton singletonObject;
 
-  private Singleton() {};
+  private Singleton() {}
 
   public static Singleton getSingletonObject() {
     if (singletonObject == null) {

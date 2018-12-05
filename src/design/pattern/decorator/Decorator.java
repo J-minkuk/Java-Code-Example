@@ -1,11 +1,12 @@
 package design.pattern.decorator;
 
 public class Decorator implements IService {
-  IService service;
+
+  IService service = new Service();
 
   @Override
   public String runSomething() {
-    service = new Service();
     return "장식" + service.runSomething();
   }
+
 }

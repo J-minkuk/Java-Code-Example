@@ -2,6 +2,7 @@
 ![DataStructure](doc/img/datastructure.jpg)
 
 ## Docs
+* [BinaryTree](./doc/BinaryTree.md)
 * [Iterator](./doc/Iterator.md)
 * [Map](./doc/Map.md)
 * [Polymorphism](./doc/Polymorphism.md)

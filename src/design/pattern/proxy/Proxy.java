@@ -1,11 +1,12 @@
 package design.pattern.proxy;
 
 public class Proxy implements IService {
-  IService service;
+
+  private IService service = new Service();
 
   @Override
   public String runSomething() {
-    service = new Service();
     return service.runSomething();
   }
+
 }
