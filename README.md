@@ -2,7 +2,8 @@
 ![DataStructure](doc/img/datastructure.jpg)
 
 ## Docs
-* [Polymorphism](./doc/Polymorphism.md)
-* [Map](./doc/Map.md)
 * [Iterator](./doc/Iterator.md)
+* [Map](./doc/Map.md)
+* [Polymorphism](./doc/Polymorphism.md)
+* [Sort](./doc/Sort.md)
 * [Thread Pool](./doc/Thread.md)

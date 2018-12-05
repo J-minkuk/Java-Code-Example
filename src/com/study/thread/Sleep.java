@@ -7,7 +7,6 @@ public class Sleep extends Thread {
     sleep.start();
 
     try {
-
       int count = 0;
       while (count < 5) {
         sleep.join(1000);

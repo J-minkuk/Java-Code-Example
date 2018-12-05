@@ -3,7 +3,7 @@
 ## Map<K, V> Interface Method
 * Set<Map, Entry<K, V> entrySet()
     * 등록된 데이터 항목들의 목록을 Set 컬렉션 타입으로 리턴한다.
-    * Key의 타입은 K, Value의 타입은 V
+    * Key 의 타입은 K, Value 의 타입은 V
     * 데이터 항목 1개의 타입은 Map.Entry<K, V>
     * 리턴되는 데이터 항목의 타입은 Set<Map.Entry<K, V>> 이다.
 

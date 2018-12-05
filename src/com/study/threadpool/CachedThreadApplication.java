@@ -31,8 +31,8 @@ public class CachedThreadApplication {
             .forEach(action -> {
               executorService.submit(() -> {
                 try {
-                  System.out.println("# " + executorService.toString());
-                  System.out.println("# " + action.get());
+                  System.out.println("# " + executorService.toString() + " # " + action.get());
+                  System.out.println();
                 } catch (InterruptedException | ExecutionException e) {
                   e.printStackTrace();
                 }

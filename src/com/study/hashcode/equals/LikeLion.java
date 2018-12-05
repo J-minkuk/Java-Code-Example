@@ -1,6 +1,7 @@
 package com.study.hashcode.equals;
 
 public class LikeLion {
+
   private String name;
   private int age;
 
@@ -30,4 +31,5 @@ public class LikeLion {
   public int hashCode() {
     return this.age + this.name.hashCode();
   }
+
 }

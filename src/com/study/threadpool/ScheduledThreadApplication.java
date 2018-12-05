@@ -10,9 +10,9 @@ public class ScheduledThreadApplication {
   public static void main(String[] args) {
     ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(5);
 
-    IntStream.range(0, 100)
+    IntStream.range(0, 15)
             .forEach(action -> scheduledExecutorService.schedule(() -> {
-              System.out.println(scheduledExecutorService.toString());
+              System.out.println(scheduledExecutorService.toString() + " # " + action);
             }, 1000L, TimeUnit.MILLISECONDS));
   }
 

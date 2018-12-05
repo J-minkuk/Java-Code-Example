@@ -3,7 +3,7 @@
 
 # 다형성 구현 규칙
 1. 공통 부모 클래스를 상속(extends) 받거나, 공통 인터페이스를 구현(implements) 해야 한다.
-2. 공통된 method가 있어야 한다. (Override - 메소드 재정의)
+2. 공통된 method 가 있어야 한다. (Override - 메소드 재정의)
 3. 부모 타입의 변수를 사용하여 메소드를 호춣해야 한다.
 
 ## 메소드 재정의 (Override)
@@ -14,7 +14,7 @@
 * 자식 메소드의 리턴 타입이 부모 메소드의 리턴 타입의 자식클래스여도 된다.
 
 ## 다형성 호출 예시 코드
-~~~
+```java
 ChileOne obj1 = new ChildOne();
 ChildTwo obj2 = new ChildTwo();
 
@@ -26,4 +26,4 @@ p.method2();        // 다형성 호출, ChildTwo의 method2 호출
 
 obj1.method1();     // 다형성 호출이 아니다.
 obj2.method2();     // 다형성 호출이 아니다.
-~~~
+```

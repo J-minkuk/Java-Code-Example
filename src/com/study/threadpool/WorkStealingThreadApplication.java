@@ -11,8 +11,7 @@ public class WorkStealingThreadApplication {
 
     IntStream.range(0, 500)
             .forEach(action -> executorService.execute(() -> {
-              System.out.println(executorService.toString());
-              System.out.println(action);
+              System.out.println(executorService.toString() + " # " + action);
             }));
   }
 

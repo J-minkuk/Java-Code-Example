@@ -7,6 +7,10 @@ public class Contribution {
     amount++;
   }
 
+//  public void donate() {
+//    amount++;
+//  }
+
   public int getTotal() {
     return amount;
   }

@@ -10,7 +10,9 @@ public class SingleThreadApplication {
     ExecutorService executorService = Executors.newSingleThreadExecutor();
 
     IntStream.range(0, 10)
-            .forEach(action -> executorService.execute(() -> System.out.println(executorService.toString())));
+            .forEach(action -> executorService.execute(() -> {
+              System.out.println(executorService.toString() + " # " + action);
+            }));
   }
 
 }
