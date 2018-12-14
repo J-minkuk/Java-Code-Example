@@ -18,7 +18,7 @@ for (int i = 0; i < a.length - 1; ++i) {
     // 최소값과 i 위치의 값을 서로 swap 합니다.
 }
 ```
-* [SelectionSort Code](/src/com/study/sort/selection/SelectionSort.java)
+* [SelectionSort Code](/com/study/sort/selection/SelectionSort.java)
     > 마지막 단계에서는 남은 값이 1개입니다.<br>
     이때 최소값을 찾는 것의 의미가 없으므로 ```i < a.length - 1```입니다.<br>
     시간 복잡도: O(n^2)<br>
@@ -41,7 +41,7 @@ for (int i = a.length - 1; i >= 1; --i) {
     }
 }
 ```
-* [BubbleSort Code](/src/com/study/sort/bubble/BubbleSort.java)
+* [BubbleSort Code](/com/study/sort/bubble/BubbleSort.java)
     > 시간 복잡도: O(n^2)<br>
     공간 복잡도: O(n)
 
@@ -58,14 +58,14 @@ for (int i = 1; i < a.length; ++i) {
     // value 보다 큰 값들을 뒤로 한 칸씩 이동하고, 그 값들 앞에 value 를 넣습니다.
 }
 ```
-* [InsertionSort Code](/src/com/study/sort/insertion/InsertionSort.java)
+* [InsertionSort Code](/com/study/sort/insertion/InsertionSort.java)
     > 시간 복잡도: O(n^2)<br>
     공간 복잡도: O(n)
 
 ---
 
 ## MergeSort (병합 정렬)
-* [MergeSort Code](/src/com/study/sort/merge/MergeSort.java)
+* [MergeSort Code](/com/study/sort/merge/MergeSort.java)
     > merge 메소드의 수행 시간은 O(n)입니다.<br>
     mergeSort 메소드는 배열을 1/2로 나누고, 나뉜 배열 각각에 대해 mergeSort 를 재귀 호출합니다.<br>
     따라서 재귀 호출 횟수는 logN 입니다.<br>
@@ -75,8 +75,8 @@ for (int i = 1; i < a.length; ++i) {
 ---
 
 ## Quick Sort (퀵 정렬)
-![QuickSort](/doc/img/QuickSort.png)
-* [QuickSort Code](/src/com/study/sort/quick/QuickSort.java)
+![QuickSort](img/QuickSort.png)
+* [QuickSort Code](/com/study/sort/quick/QuickSort.java)
     > 퀵 정렬의 partition 메소드의 수행 시간은 O(n)입니다.<br>
     quickSort 메소드의 재귀 호출 횟수는 대략 O(log N)입니다.<br>
     따라서, quickSort 메소드의 수행 시간은 O(Nlog N)입니다.

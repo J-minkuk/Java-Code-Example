@@ -40,7 +40,7 @@ Java 의 경우 ```Thread, Runnable```를 이용해야 한다.
 ```java
 ExecutorService executorService = Executors.newSingleThreadExecutor(); 
 ```
-* [SingleThreadApplication](../src/com/study/threadpool/SingleThreadApplication.java)
+* [SingleThreadApplication](SingleThreadApplication.java)
     > 단일 Worker Thread<br>
     실패 시, 새로운 Thread 를 생성하지 않음
 
@@ -48,7 +48,7 @@ ExecutorService executorService = Executors.newSingleThreadExecutor();
 ```java
 ExecutorService executorService = Executors.newFixedThreadPool(int nThreads);
 ```
-* [FixedThreadApplication](../src/com/study/threadpool/FixedThreadApplication.java)
+* [FixedThreadApplication](FixedThreadApplication.java)
     > 고정된 Worker Thread 를 사용하며, 모든 Thread 를 사용 중이라면 Queue 에 쌓여 대기<br>
     실패 시, 새로운 Thread 를 생성하여 대체
 
@@ -56,7 +56,7 @@ ExecutorService executorService = Executors.newFixedThreadPool(int nThreads);
 ```java
 ExecutorService executorService = Executors.newCachedThreadPool();
 ```
-* [CachedThreadApplication](../src/com/study/threadpool/CachedThreadApplication.java)
+* [CachedThreadApplication](CachedThreadApplication.java)
     > 필요에 따라 새로운 Thread 를 생성하며, 이전에 생성된 Thread 가 존재하면 재사용<br>
     기본적으로 60초 정도 Thread 유지<br>
     비동기 작업에 합리적
@@ -65,14 +65,14 @@ ExecutorService executorService = Executors.newCachedThreadPool();
 ```java
 ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(int corePoolSize);
 ```
-* [ScheduledThreadApplication](../src/com/study/threadpool/ScheduledThreadApplication.java)
+* [ScheduledThreadApplication](ScheduledThreadApplication.java)
     > 지정된 delay 후에 실행하거나, 주기적으로 실행하도록 명령을 예약
 
 ### Work Stealing Thread Pool
 ```java
 ExecutorService executorService = Executors.newWorkStealingPool(int parallelism);
 ```
-* [WorkStealingThreadApplication](../src/com/study/threadpool/WorkStealingThreadApplication.java)
+* [WorkStealingThreadApplication](WorkStealingThreadApplication.java)
     > Java 8에서 새로 생긴 Thread Pool<br>
     지정된 parallelism 을 지원할만큼 충분한 Thread 를 유지하고 여러 Queue 를 사용하여 경합을 줄임<br>
     Thread 를 동적으로 늘리고 줄임<br>
