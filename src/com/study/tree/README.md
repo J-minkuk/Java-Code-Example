@@ -1,5 +1,5 @@
 # Binary Tree (이진 트리)
-![Binary_Tree](/../img/binary_tree.png)
+![Binary_Tree](../../../../img/binary_tree.png)
 
 * 레코드 (record)
     > 개체에 대해 수집된 모든 정보를 포함하고 있는 저장 단위<br>
@@ -26,13 +26,13 @@
 * 임의의 노드의 키 값은 자신의 왼쪽 자식 노드의 키 값보다 크고, 오른쪽 자식의 키 값보다 작다.
 
 **BST 의 예**
-![BST_Example](/../img/BST_Example.png)
+![BST_Example](../../../../img/BST_Example.png)
 
 **서브 트리(sub tree)의 예**
-![SubTree_Example](/../img/SubTree_Example.png)
+![SubTree_Example](../../../../img/SubTree_Example.png)
 
 ## BST 성능
-![완전히_균형잡힌_트리](/../img/perfect_balancing.png)
+![Perfect_Balancing](../../../../img/perfect_balancing.png)
 * **최선의 경우 (완전히 균형잡힌 트리)**
     > root node 의 값과 찾을 값을 한 번 비교하면, 찾을 대상이 left 서브 트리나 right 서브 트리로 좁혀진다.
     최선의 경우 이진 트리 search, add, remove 수행시간은 O(log N)이다.<br><br>
