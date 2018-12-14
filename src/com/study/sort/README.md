@@ -75,7 +75,7 @@ for (int i = 1; i < a.length; ++i) {
 ---
 
 ## Quick Sort (퀵 정렬)
-![QuickSort](img/QuickSort.png)
+![QuickSort](/../img/QuickSort.png)
 * [QuickSort Code](/com/study/sort/quick/QuickSort.java)
     > 퀵 정렬의 partition 메소드의 수행 시간은 O(n)입니다.<br>
     quickSort 메소드의 재귀 호출 횟수는 대략 O(log N)입니다.<br>
