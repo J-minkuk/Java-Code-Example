@@ -5,7 +5,7 @@ import java.util.stream.IntStream;
 /**
  * 연산자 순서 섞기
  */
-public class Example05 {
+public class OperationOrder01 {
   public static void main(String[] args) {
     /**
      * 원하지 않던 결과

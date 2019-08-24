@@ -5,7 +5,7 @@ import java.util.stream.IntStream;
 /**
  * 의도치 않게 생성된 병렬 무한 스트림
  */
-public class Example04 {
+public class UnlimitedParallelStream01 {
   public static void main(String[] args) {
     /**
      * Example03 에서는 cpu 를 하나만 혹사시킨 반면, 여기서는 더 많이 사용할 것이다.

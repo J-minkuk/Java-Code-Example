@@ -5,7 +5,7 @@ import java.util.stream.IntStream;
 /**
  * 의도치 않게 생성된 무한 스트림
  */
-public class Example03 {
+public class UnlimitedStream02 {
   public static void main(String[] args) {
     /**
      * - 0과 1을 반복적으로 생성
